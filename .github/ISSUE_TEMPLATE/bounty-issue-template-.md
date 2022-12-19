@@ -42,7 +42,7 @@ If bounty is a dapp it should follow the dapp standard https://github.com/hoprne
 ### How to submit 
 
 - Create a pull request for our [hopr-bounty-submission repository](https://github.com/hoprnet/hopr-bounty-submission) 
-- Submit your work into a new subfolder called "Insert the title of the bounty as displayed on Gitcoin".
+- Submit your work into a new subfolder called ***"insert title of the bounty"***.
 
 ### What is HOPR?
 
