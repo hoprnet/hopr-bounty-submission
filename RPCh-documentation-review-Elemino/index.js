@@ -13,7 +13,7 @@ async function sendTransaction() {
 
   try {
     // Initialize the SDK
-    await rpcSdk.initialize();
+    await rpcSdk.start();
 
     // Set the provider endpoint
     rpcSdk.setProviderEndpoint("http://localhost:8080/?exit-provider=https://primary.gnosis-chain.rpc.hoprtech.net");
@@ -53,6 +53,9 @@ async function sendTransaction() {
   } catch (error) {
     console.error("Error sending transaction:", error);
   }
+  
 }
 
 sendTransaction();
+
+
