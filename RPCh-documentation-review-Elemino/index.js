@@ -53,9 +53,6 @@ async function sendTransaction() {
   } catch (error) {
     console.error("Error sending transaction:", error);
   }
-  
 }
 
 sendTransaction();
-
-
