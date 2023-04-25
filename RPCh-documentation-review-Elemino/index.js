@@ -7,7 +7,7 @@ const Web3 = require("web3");
 async function sendTransaction() {
   const rpcSdk = new sdk({
     crypto: RPChCrypto,
-    client: "your_client_name",
+    client: "#",
     timeout: 20000,
   });
 
@@ -16,7 +16,7 @@ async function sendTransaction() {
     await rpcSdk.initialize();
 
     // Set the provider endpoint
-    rpcSdk.setProviderEndpoint("https://staging.discovery.rpch.tech");
+    rpcSdk.setProviderEndpoint("http://localhost:8080/?exit-provider=https://primary.gnosis-chain.rpc.hoprtech.net");
 
     const gasPrice = Buffer.from("20000000000", "hex");
 
