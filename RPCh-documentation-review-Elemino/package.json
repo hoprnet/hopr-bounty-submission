@@ -1,11 +1,15 @@
 {
-  "name": "rpch-documentation-review-elemino",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "@types/web3": "^1.2.2",
+    "typescript": "^5.0.4",
+    "web3": "^1.9.0"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@rpch/crypto": "^0.3.4",
+    "@rpch/crypto-for-nodejs": "^0.3.4",
+    "@rpch/sdk": "^0.1.7"
+  }
 }
+
