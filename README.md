@@ -7,7 +7,7 @@
 
 2. Running 'tsc transaction.ts' will compile but will add web3.0.js provider with .default to the compiled js file which causes an error however, the file transaction.js does manage to send a transaction successfully by running 'node transaction.js'.
 
-![alt text](hopr-bounty-submission\RPCh-documentation-review-Elemino\demo-transaction-without-rpch.PNG)
+![alt text](https://github.com/Elemino/hopr-bounty-submission/blob/main/RPCh-documentation-review-Elemino/demo-transaction-without-rpch.PNG)
 
 
 
